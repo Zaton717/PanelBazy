@@ -1,0 +1,302 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../img/body.jpg");
+  background-size: cover;
+  background-position-y: -180px;
+  opacity: 1;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#wyloguj {
+  text-decoration: none;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: rgba(20, 20, 20, 0.7);
+  color: white;
+  width: 90px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 30px;
+  transition-duration: 0.4s;
+}
+
+#wyloguj:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#form {
+  text-align: center;
+  font-size: xx-large;
+  height: 10%;
+  margin-top: 16%;
+  color: white;
+  background-color: rgba(20, 20, 20, 0.7);
+  margin-left: 40%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 20%;
+  border-radius: 10px;
+}
+
+.button1 {
+  width: 200px;
+  height: 60px;
+  font-size: x-large;
+  color: white;
+  background-color: rgb(0, 139, 139);
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+.button1:hover {
+  width: 210px;
+  height: 65px;
+  background-color: rgb(0, 179, 179);
+}
+
+#logowanieSerwer {
+  font-size: x-large;
+  height: 10%;
+  margin-top: 14%;
+  color: white;
+  background-color: rgba(20, 20, 20, 0.7);
+  margin-left: 40%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 20%;
+  border-radius: 10px;
+}
+
+#wypisanieTabeli {
+  text-align: center;
+  width: 50%;
+  float: left;
+  margin-left: 25%;
+  margin-top: 16%;
+  background-color: rgba(20, 20, 20, 0.7);
+  color: white;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+th {
+  background-color: rgb(0, 139, 139);
+}
+
+table {
+  border-spacing: 0px;
+  width: 100%;
+}
+
+#powrot{
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+    position:absolute;
+    top:80%;
+}
+
+
+#tabelaSrodek {
+  font-size: x-large;
+  height: 10%;
+  margin-top: 6%;
+  color: white;
+  background-color: rgba(20, 20, 20, 0.7);
+  margin-left: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 20%;
+  border-radius: 10px;
+  float: left;
+}
+
+#tabelaSrodek2 {
+  font-size: x-large;
+  height: 10%;
+  margin-top: 6%;
+  color: white;
+  background-color: rgba(20, 20, 20, 0.7);
+  margin-left: 40%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 20%;
+  border-radius: 10px;
+  float: left;
+}
+
+#tabelaPrawo {
+  float: left;
+  font-size: x-large;
+  height: 10%;
+  margin-top: 16%;
+  color: white;
+  background-color: rgba(20, 20, 20, 0.7);
+  margin-left: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 20%;
+  border-radius: 10px;
+}
+
+#tabelaLewo {
+  float: left;
+  font-size: x-large;
+  height: 10%;
+  margin-top: 16%;
+  color: white;
+  background-color: rgba(20, 20, 20, 0.7);
+  margin-left: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 20%;
+  border-radius: 10px;
+}
+
+#rekordLewo {
+  font-size: x-large;
+  height: 10%;
+  margin-top: 16%;
+  color: white;
+  background-color: rgba(20, 20, 20, 0.7);
+  margin-left: 20%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 20%;
+  border-radius: 10px;
+  float: left;
+}
+
+#rekordPrawo {
+  float: left;
+  font-size: x-large;
+  height: 10%;
+  margin-top: 17%;
+  color: white;
+  background-color: rgba(20, 20, 20, 0.7);
+  margin-left: 20%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 20%;
+  border-radius: 10px;
+}
+
+#logowanieBaza {
+  font-size: x-large;
+  height: 10%;
+  margin-top: 12%;
+  color: white;
+  background-color: rgba(20, 20, 20, 0.7);
+  margin-left: 40%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 20%;
+  border-radius: 10px;
+}
+
+.logowanie {
+  font-size: xx-large;
+  margin: 0px;
+}
+
+.button2 {
+  width: 130px;
+  height: 40px;
+  font-size: x-large;
+  color: white;
+  background-color: rgb(0, 139, 139);
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+.button2:hover {
+  width: 130px;
+  height: 40px;
+  background-color: rgb(0, 179, 179);
+}
+
+.input1 {
+  background-color: rgb(180, 255, 255);
+  height: 22px;
+  width: 250px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#srodek {
+  color: white;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  font-size: x-large;
+}
+
+#selekcja {
+  height: 27px !important;
+}
+
+#lewo {
+  margin-left: 25%;
+}
+
+#prawo {
+  margin-left: 10%;
+}
+
+.baza {
+  float: left;
+  font-size: x-large;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 10px;
+  height: 18%;
+  margin-top: 14%;
+  color: white;
+  background-color: rgba(20, 20, 20, 0.7);
+  width: 20%;
+}
+
+.button3 {
+  width: 90px;
+  height: 30px;
+  font-size: x-large;
+  color: white;
+  background-color: rgb(0, 139, 139);
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  line-height: 25px;
+}
+
+.button3:hover {
+  background-color: rgb(0, 179, 179);
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  color: white;
+}
+
+.licencja {
+  float: right;
+  text-decoration: none !important;
+  margin-right: 8px;
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
